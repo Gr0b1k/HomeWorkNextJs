@@ -23,9 +23,9 @@ const NavbarMobile = ( { containerStyle} : { containerStyle : string}) => {
                     </>
                 )
             })}
-            <div className="">
+            <li className="">
                 <Link href="/login" className=' uppercase text-black/70 py-[10px] px-[25px] hover:text-black hover:scale-[1.1] transition-all duration-300 bg-white'>Login</Link> 
-            </div>
+            </li>
         </menu>
     </nav>
   )

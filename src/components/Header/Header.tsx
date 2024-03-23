@@ -11,7 +11,7 @@ const Header = () => {
   const [ openNav, setOpenNav] = useState(false);
 
   return (
-    <header className=' w-full h-[70px]  border-b border-blue-600 bg-blue-700  '>
+    <header className=' w-full h-[70px]  border-b border-blue-600 bg-blue-700/85  '>
       <div className="container relative mx-auto flex items-center h-full">
         <div className="w-full h-full relative flex items-center justify-between ">
           <Link href="/" className=' w-[100px] h-[50px]  '>
